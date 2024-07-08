@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation Assignment2</title>
+</head>
+<body>
+ <form action="http://www.example.com/review.php" method="get" style="background-color:Pink">
+    
+
+    <Label><H1><Center>Grade Volly Ball Registration Form</Center></H1></Label><br>
+    <fieldset>
+        <legend>
+        Your Details:
+        </legend>
+    <Label> Participant Name:</Label>
+    <Input type="Text" placeholder="First Name" width="300" height="300"></Input> <Input type="Text" placeholder="Last Name" width="300" height="300"></Input>
+    <br>
+<br>
+   <Label>Select Your Age:</Label> <input type="number" id="Age" name="age" style="width: 345px;" placeholder="Please Write your Age"><br>
+
+       <br>
+    <label for="Choose Grade">Choose Your Grade:</label><input list="Grade" id="Grades" name="Grade"style="width: 325px;" placeholder="Please Select">
+    <datalist id="Grade">
+        <option value="Grade A">
+        <option value="Grade B">
+        <option value="Grade C">
+        <option value="Grade D">
+    </datalist></input>
+    <br>
+<br>
+   <Label>Your School District:</Label><Input type="Address" style="width: 320px;" placeholder="Write Your School Address Here"></Input><br>
+   <br>
+       <label for="Choose Shirt Size">Choose Shirts Size:</label><input list="Size" id="Sizes" name="Size" style="width: 332px;" placeholder="Please Select the Size">
+    <datalist id="Size">
+        <option value="Small">
+        <option value="Medium">
+        <option value="Large">
+        <option value="Extra Large">
+    </datalist>
+    <br>
+    <br>
+    <Label>Select You Gender:</Label>
+    <input type="radio" name="Gender" value="Male"checked="checked" /> Male
+    <input type="radio" name="Gender" value="Female" checked="checked"/>Female
+    
+    
+</fieldset>
+    
+ <fieldset>
+ <legend>
+ Your Contact Details:
+ </legend>
+ <label>
+ Name:
+ <input type="text" name="name" size="30" maxlength="100" style="width: 400px;">
+ </label>
+ <br />
+ <br>
+ <label> 
+ Email:</label>
+ <input type="email" name="email" size="30" maxlength="100" style="width: 400px;">
+ <br />
+ <br>
+ <Label>Mobile Number:</Label>
+ <Input type="tel" maxlength="14" style="width: 335px;" style="color: rgb(213, 185, 0);"></Input>
+ <br>
+ <br>
+ <Label>Upload Your Picture</Label>
+ <input type="file" name="Upload File" id="Upload your File"><br>
+ <br>  
+ <Label>Submit Your Form:</Label>
+ <input type="submit" Name="Submit" id="Submit your Form">
+ </fieldset>
+ <br />
